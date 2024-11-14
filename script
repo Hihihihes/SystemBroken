@@ -1,6 +1,6 @@
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
-	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Broken",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Not broken",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
 	return
 end
 local version = 2
@@ -412,7 +412,7 @@ TitleBarLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TitleBarLabel.BorderSizePixel = 0
 TitleBarLabel.Size = UDim2.new(1, 0, 0, 30)
 TitleBarLabel.Font = Enum.Font.Unknown
-TitleBarLabel.Text = "____/SYSTEMBROKEN\\___"
+TitleBarLabel.Text = "____/ara sigma\\___"
 TitleBarLabel.TextColor3 = Color3.fromRGB(0, 255, 255)
 TitleBarLabel.TextScaled = true
 TitleBarLabel.TextSize = 14.000
@@ -1864,7 +1864,7 @@ Serverhop_Button.BorderSizePixel = 0
 Serverhop_Button.Position = UDim2.new(0, 210, 0, 275)
 Serverhop_Button.Size = UDim2.new(0, 150, 0, 30)
 Serverhop_Button.Font = Enum.Font.Oswald
-Serverhop_Button.Text = "Server hop"
+Serverhop_Button.Text = "kozhir zor sigmaya"
 Serverhop_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Serverhop_Button.TextScaled = true
 Serverhop_Button.TextSize = 14.000
